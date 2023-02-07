@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/120050904/217234552-d2eec66c-9fdd-43cd-85ac-c296a8fa701d.png)
+
 # Hello World with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
