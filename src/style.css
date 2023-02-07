@@ -74,13 +74,13 @@ s.register-photo .image-holder {
   outline: none !important;
 }
 
-.register-photo form .btn-registrar:hover,
-.register-photo form .btn-registrar:active {
+.register-photo form .btn-recuperar:hover,
+.register-photo form .btn-recuperar:active {
   background: #c5a411;
 }
 
 /* define un estilo para el estado "active" (cuando se está presionando el boton) */
-.register-photo form .btn-registrar:active {
+.register-photo form .btn-recuperar:active {
   transform: translateY(1px);
 }
 
@@ -96,6 +96,6 @@ s.register-photo .image-holder {
   /* ==> Significa que no habrá decoración en el texto */
 }
 
-.register-photo form .btn-registrar {
+.register-photo form .btn-recuperar {
   background: linear-gradient(-120deg, rgb(230, 145, 201), rgb(5, 0, 255));
 }

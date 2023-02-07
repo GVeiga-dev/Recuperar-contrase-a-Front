@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registro de Usuario</title>
+    <title>Recuperar Contraseña</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -32,17 +32,15 @@
       <div class="form-container">
         <form method="post">
           <h2 class="text-center">
-            <strong>REGISTRO DE USUARIO</strong><br />
+            <strong><u>RECUPERAR CONTRASEÑA</u></strong
+            ><br />
           </h2>
 
-          <!-- DIV DE USUARIO Y CORREO ELECTRONICO -->
+          <h4 class="text-center">
+            Ingrese el correo con el que se ha registrado.
+          </h4>
+          <!-- DIV CORREO ELECTRONICO -->
           <div class="form-group">
-            <input
-              class="form-control mb-3"
-              type="text"
-              name="Username"
-              placeholder="Usuario"
-            />
             <input
               class="form-control mb-3"
               type="email"
@@ -51,39 +49,13 @@
             />
           </div>
 
-          <!-- DIV DE CONTRASEÑA Y CONFIRMAR CONTRASEÑA -->
-          <div class="form-group">
-            <input
-              class="form-control mb-3"
-              type="password"
-              name="password"
-              placeholder="Contraseña"
-            />
-            <input
-              class="form-control"
-              type="password"
-              name="password"
-              placeholder="Confirmar Contraseña"
-            />
-          </div>
-
-          <!-- DIV DE CONFIRMAR LOS TERMINOS DE LICENCIA -->
-          <div class="form-group">
-            <div class="form-check">
-              <label class="form-check-label"
-                ><input class="form-check-input" type="checkbox" /> Estoy de
-                acuerdo con los terminos y condiciones.</label
-              >
-            </div>
-          </div>
-
           <!-- DIV DE BOTONES   -->
           <div class="form-group">
             <button
-              class="btn btn-registrar btn-block mb-3 col-12"
+              class="btn btn-recuperar btn-block mb-3 col-12"
               type="submit"
             >
-              Registrarse
+              Recuperar contraseña
             </button>
           </div>
 
@@ -92,10 +64,10 @@
           <!-- Boton de registro con google -->
           <div class="form-group">
             <button
-              class="btn btn-registrar btn-block mb-3 col-12"
+              class="btn btn-recuperar btn-block mb-3 col-12"
               type="submit"
             >
-              Registrarse con Google
+              Salir
             </button>
           </div>
 
